@@ -13,8 +13,36 @@
 // }
 
 //step03
-let getSum=function (x,y){
-        return x+y;
-     }
-let sum=getSum(20,10);
-console.log(sum);
+// let getSum=(x,y)=>{
+//         return x+y;
+//      }
+
+//step04
+//let getSum = (x,y)=> x+y;
+
+
+//step04
+// let getName = name=> "hello"+name;
+
+
+//let sum = getSum(10,20);
+
+
+// let name= (name="saman")=> "hello"+name;
+// console.log(name());
+
+
+// function numbers(...numbers){
+//     return numbers
+// }
+// console.log(numbers(10,20,30,40,50,60,70,80,90,100,110,120,140,150));
+
+//DOM
+
+// console.log(document);
+
+// document.writeln("bavindu!")
+let elementDesc=document.getElementById("description")
+elementDesc.innerText="Hello ICET.!  hi students, we are from sri lankan"
+
+console.log(elementDesc);
