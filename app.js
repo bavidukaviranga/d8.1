@@ -42,10 +42,13 @@
 // console.log(document);
 
 // document.writeln("bavindu!")
-let elementDesc=document.getElementById("description")
-elementDesc.innerText="Hello ICET.! "
-elementDesc.innerHTML=` <h1>HELLO ICET !</h1>`
-elementDesc.innerHTML+=`<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat dicta sit nostrum dolor doloribus consectetur corporis eos nulla nobis omnis totam voluptatibus architecto nihil ducimus dolorum, ut dolorem culpa suscipit!</p>`
+// let elementDesc=document.getElementById("description")
+// elementDesc.innerText="Hello ICET.! "
+// elementDesc.innerHTML=` <h1>HELLO ICET !</h1>`
+// elementDesc.innerHTML+=`<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat dicta sit nostrum dolor doloribus consectetur corporis eos nulla nobis omnis totam voluptatibus architecto nihil ducimus dolorum, ut dolorem culpa suscipit!</p>`
 
 
-console.log(elementDesc);
+// console.log(elementDesc);
+
+let h1=document.getElementById("h1");
+h1.style.color="blue"
