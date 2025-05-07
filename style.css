@@ -1,0 +1,9 @@
+.background-color-dark{
+    background-color: black;
+    color: white;
+}
+
+.background-color-light{
+    background-color:rgb(216, 190, 190);
+    color: black;
+}

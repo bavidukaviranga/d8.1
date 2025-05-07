@@ -50,5 +50,7 @@
 
 // console.log(elementDesc);
 
-let h1=document.getElementById("h1");
-h1.style.color="blue"
+// let h1=document.getElementById("h1");
+// h1.style.color="blue"
+ let h1=document.getElementById("h1");
+ h1.classList.add("background-color-dark");
